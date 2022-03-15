@@ -23,8 +23,8 @@ const validate = (req,res,next) => {
 }
 
 const s3 = new aws.S3({
-  accessKeyId: "AKIA6HK2ZBTXUYLB4QWB",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
   ACL: "public-read",
 });
 
